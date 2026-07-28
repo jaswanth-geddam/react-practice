@@ -1,0 +1,31 @@
+.form {
+  margin-left: 20px;
+  text-align: center;
+
+  width: 100px;
+  height: 100px;
+  float:  left;
+}
+.c{
+  height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.data{
+  text-align: center;
+  background-color: gray;
+ 
+  width: 300px;
+  height: 300px;
+ 
+  margin-left: 250px;
+ 
+}
+.data img{
+  width: 100px;
+  height: 100px;
+}
+.ins{
+  margin-top: 100px
+}
+

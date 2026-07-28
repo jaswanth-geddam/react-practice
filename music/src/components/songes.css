@@ -1,0 +1,25 @@
+.album img{
+    width: 300px;
+    height: 350px;
+    display: grid;
+   margin-top: 15px;
+
+}
+.pagebutton{
+    width: 50px;
+    height: 100px;
+    
+  float: left;
+  margin-left: 2px;
+ 
+ 
+
+    
+}
+.button{
+    margin-top: 20px;
+    
+    width: 180px;
+    height: 50px;
+   
+}
