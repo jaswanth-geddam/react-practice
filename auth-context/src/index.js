@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app';
 import reportWebVitals from './reportWebVitals';
-import{Provider as ReduxProvider} from "react-redux"
-import {store} from "./store/store"
+import {AuthContextProvider} from "./context/AuthContext"
 
 ReactDOM.render(
-  <React.StrictMode >
-    <ReduxProvider store={store}>
-        <App />
-    </ReduxProvider>
+  <React.StrictMode>
+    <AuthContextProvider>
+    <App />
+    </AuthContextProvider>
     
   </React.StrictMode>,
   document.getElementById('root')
