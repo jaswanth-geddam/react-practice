@@ -2,8 +2,8 @@
   "private": true,
   "workspaces": ["*"],
   "scripts": {
-    "install:all": "npm install",
-    "lint": "npm run lint --workspaces --if-present",
+    "install:all": "pnpm install",
+    "lint": "pnpm -r run lint --if-present",
     "format": "prettier --write \"**/*.{js,jsx,css,json}\""
   },
   "devDependencies": {

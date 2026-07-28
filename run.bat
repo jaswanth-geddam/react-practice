@@ -27,7 +27,7 @@ goto MENU
 
 :INSTALL
 echo Installing...
-call npm install
+call pnpm install
 echo Done!
 pause
 goto MENU
@@ -79,13 +79,13 @@ setlocal enabledelayedexpansion
 set "d=!dirs[%r%]!"
 if "!d!"=="" goto RUN
 echo Starting !d!...
-start "react-!d:\=!" cmd /c "cd /d "%~dp0!d!" && npm start"
+start "react-!d:\=!" cmd /c "cd /d "%~dp0!d!" && pnpm start"
 endlocal
 goto RUN
 
 :FORMAT
 echo Formatting all files...
-call npm run format
+call pnpm run format
 echo Done!
 pause
 goto MENU
