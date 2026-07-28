@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "workspaces": [
+    "*",
+    "employee-app"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier --write \"**/*.{js,jsx,css,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.5.0"
+  }
+}
