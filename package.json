@@ -1,9 +1,6 @@
 {
   "private": true,
-  "workspaces": [
-    "*",
-    "employee-app"
-  ],
+  "workspaces": ["*"],
   "scripts": {
     "install:all": "npm install",
     "lint": "npm run lint --workspaces --if-present",
